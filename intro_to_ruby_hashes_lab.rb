@@ -12,11 +12,10 @@ end
 
 def id_generator
   new_hash = {id: 1}
-  # return a hash with a key :id assigned to positive integer
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+  new_has = {key: value}
 end
 
 def read_from_hash(hash, key)
